@@ -1,0 +1,24 @@
+name: 'DrupalEasy SDC'
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - drupaleasy_sdc/base
+  - drupaleasy_sdc/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - drupaleasy_sdc/user
+  core/drupal.dropbutton:
+    - drupaleasy_sdc/dropbutton
+  core/drupal.dialog:
+    - drupaleasy_sdc/dialog
+  file/drupal.file:
+    - drupaleasy_sdc/file
+  core/drupal.progress:
+    - drupaleasy_sdc/progress
+  core/drupal.tablesort:
+    - drupaleasy_sdc/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.2.2'
