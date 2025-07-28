@@ -1,0 +1,8 @@
+{
+    /* For SDC, used in combination with the redhat.vscode-yaml YAML extension. */
+    "yaml.schemas": {
+      "file://var/www/html/web/core/assets/schemas/v1/metadata.schema.json": [
+        "**/*.component.yml"
+      ]
+    }
+}
