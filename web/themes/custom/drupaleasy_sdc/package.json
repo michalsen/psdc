@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "scripts": {
     "build:css": "postcss src/styles.css --dir css",
-    "watch:css": "postcss src/styles.css --dir css --watch"
+    "watch:css": "postcss src/styles.css --dir css --watch",
+    "buildall:css": "node build-css.js"
   },
   "author": "Test",
   "type": "commonjs",
   "devDependencies": {
+    "glob": "^11.0.3",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "postcss-preset-env": "^10.2.4"
+    "postcss-import": "^16.1.1",
+    "postcss-mixins": "^12.1.2",
+    "postcss-preset-env": "^10.2.4",
+    "postcss-pxtorem": "^6.1.0",
+    "postcss-url": "^10.1.3"
   }
 }
